@@ -1,0 +1,23 @@
+<swiper class="detail-swiper" indicator-dots="{{swipeConfig.indicatorDots}}" autoplay="{{swipeConfig.autoplay}}" interval="{{swipeConfig.interval}}" duration="{{swipeConfig.duration}}">
+  <block wx:for="{{product.images}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100%"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="detail-container">
+	<view class="detail-title">
+		{{product.title}}
+	</view>
+	<view class="detail-price">
+		{{product.price}}
+	</view>
+</view>
+<view class="split-bar"></view>
+<view class="detail-block-title">商品详情</view>
+<view class="imgs-container">
+	<block wx:for="{{product.images}}">
+      <image src="{{item}}" mode="aspectFit" class="detail-image"/>
+  </block>
+</view>
+<button class="detail-buy" type="warn" bindtap="buy"> 立即购买 </button>

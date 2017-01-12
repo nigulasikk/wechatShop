@@ -1,0 +1,45 @@
+<view class="order-container">
+ 	<view class="order-item">
+ 		<view class="order-shop">
+ 			美特斯邦威服饰 >
+ 		</view>
+ 		<view class="product-info">
+ 			 <image class="order-left" mode="aspectFill" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+ 			 <view class="order-middle">
+ 			 	<view class="order-name">羽绒服女中长款2016L</view>
+ 			 	<view class="order-price">￥299.00</view>
+ 			 	<view class="order-time">2017-01-02 18:00</view>
+ 			 </view>
+ 			 <view class="order-right"> > </view>
+ 		</view>
+ 	</view>
+ 		<view class="order-item">
+ 		<view class="order-shop">
+ 			美特斯邦威服饰 >
+ 		</view>
+ 		<view class="product-info">
+ 			 <image class="order-left" mode="aspectFill" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+ 			 <view class="order-middle">
+ 			 	<view class="order-name">羽绒服女中长款2016L</view>
+ 			 	<view class="order-price">￥299.00</view>
+ 			 	<view class="order-time">2017-01-02 18:00</view>
+ 			 </view>
+ 			 <view class="order-right"> > </view>
+ 		</view>
+ 	</view>
+ 		<view class="order-item">
+ 		<view class="order-shop">
+ 			美特斯邦威服饰 >
+ 		</view>
+ 		<view class="product-info">
+ 			 <image class="order-left" mode="aspectFill" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+ 			 <view class="order-middle">
+ 			 	<view class="order-name">羽绒服女中长款2016L</view>
+ 			 	<view class="order-price">￥299.00</view>
+ 			 	<view class="order-time">2017-01-02 18:00</view>
+ 			 </view>
+ 			 <view class="order-right"> > </view>
+ 		</view>
+ 	</view>
+
+</view>

@@ -1,0 +1,69 @@
+<view class="order-container">
+ 	<view class="order-item">
+ 		<view class="order-shop">
+ 			美特斯邦威服饰 >
+ 		</view>
+ 		<view class="product-info">
+ 			 <image class="order-left" mode="aspectFill" src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+ 			 <view class="order-middle">
+ 			 	<view class="order-name">羽绒服女中长款2016L</view>
+ 			 	<view class="order-price">￥299.00</view>
+ 			 	<view class="order-time">2017-01-02 18:00</view>
+ 			 </view>
+ 		</view>
+ 	</view>
+ 	<view class="info-item">
+ 		<view class="info-item-left">购买数量</view>
+ 		<view class="info-item-right">
+ 			<view bindtap="minus" class="buy-minus">-</view>
+ 			<input class="buy-amount" value="{{buyAmount}}" bindinput="inputAmount" type="number" />
+ 			<view bindtap="add" class="buy-add">+</view>
+ 		</view>
+ 	</view>	
+ 	<view class="info-item">
+ 		<view class="info-item-left">发票信息</view>
+ 		<view class="info-item-right">
+ 			个人.明细.普通发票
+ 		</view>
+ 	</view>	
+
+	<view class="price-wrap">
+		<view class="info-item">
+	 		<view class="info-item-left">
+	 			商品金额
+	 		</view>
+	 		<view class="info-item-right">
+	 			<text class="confirm-price">￥299.00</text>
+	 		</view>
+		 </view>
+		 <view class="info-item">
+	 		<view class="info-item-left">
+	 			运费
+	 		</view>
+	 		<view class="info-item-right">
+	 			<text class="confirm-price">+0.00</text>
+	 		</view>
+		 </view>
+		 <view class="info-item">
+	 		<view class="info-item-left">
+	 			优惠
+	 		</view>
+	 		<view class="info-item-right">
+	 			<text class="confirm-price">-0.00</text>
+	 		</view>
+		 </view>	
+		<view class="info-item">
+	 		<view class="info-item-left"></view>
+	 		<view class="info-item-right">
+	 			实付金额：
+	 			<text class="confirm-price">￥299.00</text>
+	 		</view>
+		 </view>
+			<button class="confirm-pay" type="primary" bindtap="pay"> 微信支付 </button>
+	</view>
+
+		
+	
+
+
+</view>

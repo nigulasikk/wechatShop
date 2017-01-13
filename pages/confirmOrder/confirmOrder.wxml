@@ -33,7 +33,7 @@
 	 			商品金额
 	 		</view>
 	 		<view class="info-item-right">
-	 			<text class="confirm-price">￥299.00</text>
+	 			<text class="confirm-price">￥{{buyAmount*299}}.00</text>
 	 		</view>
 		 </view>
 		 <view class="info-item">
@@ -41,7 +41,7 @@
 	 			运费
 	 		</view>
 	 		<view class="info-item-right">
-	 			<text class="confirm-price">+0.00</text>
+	 			<text class="confirm-price">+{{buyAmount*5}}.00</text>
 	 		</view>
 		 </view>
 		 <view class="info-item">
@@ -56,7 +56,7 @@
 	 		<view class="info-item-left"></view>
 	 		<view class="info-item-right">
 	 			实付金额：
-	 			<text class="confirm-price">￥299.00</text>
+	 			<text class="confirm-price">￥{{buyAmount*299+buyAmount*5}}.00</text>
 	 		</view>
 		 </view>
 			<button class="confirm-pay" type="primary" bindtap="pay"> 微信支付 </button>

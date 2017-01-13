@@ -29,12 +29,20 @@
             <view class="comment">
             	<text>{{item.commentAmount}}</text>条评价，
             	<text>{{item.goodPercent}}</text>好评
+                <contact-button 
+                  type="default-dark" 
+                  size="20"
+                  session-from="weapp"
+                  style="float:right;"
+                >
+                </contact-button>
             </view>
           </view>
         </view>
       </navigator>
     </block>
     <!-- <button type="primary" class="load-btn"  loading="{{loading}}" plain="{{plain}}" bindtap="loadMore"> 更多 </button> -->
+ 
   </view>
-
+   
 </view>
